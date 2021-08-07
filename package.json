@@ -1,5 +1,4 @@
 {
-  "private": true,
   "displayName": "HomeBridge Plugin New Widetech Internet Dehumidifier",
   "name": "homebridge-new-widetech-internet-dehumidifier",
   "version": "0.0.1",
