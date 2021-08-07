@@ -1,9 +1,11 @@
-import { AccessoryConfig } from "homebridge";
+/* eslint-disable camelcase */
+
+import { AccessoryConfig } from 'homebridge'
 
 export interface IMapSetOptions<T> {
-  debounce?: number;
-  ensureActive?: boolean;
-  update?: keyof T;
+  debounce?: number
+  ensureActive?: boolean
+  update?: keyof T
 }
 
 export const enum SwitchStatuses {
@@ -30,25 +32,25 @@ export const enum Thresholds {
 }
 
 export interface DehumidifierAccessoryConfig extends AccessoryConfig {
-  ip: string;
-  token: string;
-  pollingInterval?: number;
-  serial?: string;
-  model?: string;
-  manufacturer?: string;
-  ledSwitch?: string;
-  buzzerSwitch?: string;
+  ip: string
+  token: string
+  pollingInterval?: number
+  serial?: string
+  model?: string
+  manufacturer?: string
+  ledSwitch?: string
+  buzzerSwitch?: string
 }
 
 export interface MiioProps {
-  on_off: SwitchStatuses;
-  compressor_status: SwitchStatuses;
-  child_lock: SwitchStatuses;
-  auto: Thresholds;
-  humidity: string;
-  tank_full: SwitchStatuses;
-  mode: Modes;
-  fan_st: FanStatuses;
-  buzzer: SwitchStatuses;
-  led: SwitchStatuses;
+  on_off: SwitchStatuses
+  compressor_status: SwitchStatuses
+  child_lock: SwitchStatuses
+  auto: Thresholds
+  humidity: string
+  tank_full: SwitchStatuses
+  mode: Modes
+  fan_st: FanStatuses
+  buzzer: SwitchStatuses
+  led: SwitchStatuses
 }

@@ -7,7 +7,7 @@ declare module 'miio' {
   }
 
   export function device(configs: {
-    address: string;
-    token: string;
+    address: string
+    token: string
   }): Device;
 }
