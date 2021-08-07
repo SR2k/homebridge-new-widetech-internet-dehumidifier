@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
-  "license": "Apache-2.0",
+  "displayName": "HomeBridge Plugin New Widetech Internet Dehumidifier",
+  "name": "homebridge-new-widetech-internet-dehumidifier",
+  "version": "0.0.1",
+  "description": "Connects your New Widetech Internet Dehumidifier into HomeKit via HomeBridge",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/SR2k/homebridge-new-widetech-internet-dehumidifier.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/SR2k/homebridge-new-widetech-internet-dehumidifier/issues"
   },
   "engines": {
     "node": ">=10.17.0",
@@ -26,8 +26,13 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "homebridge-xiaomi-dehumidifier": "^1.0.1",
+    "lodash": "^4.17.20",
+    "miio": "^0.15.6"
+  },
   "devDependencies": {
+    "@types/lodash": "^4.14.164",
     "@types/node": "^14.14.2",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
