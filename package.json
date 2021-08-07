@@ -1,7 +1,7 @@
 {
   "displayName": "HomeBridge Plugin New Widetech Internet Dehumidifier",
   "name": "homebridge-new-widetech-internet-dehumidifier",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Connects your New Widetech Internet Dehumidifier into HomeKit via HomeBridge",
   "license": "MIT",
   "repository": {
