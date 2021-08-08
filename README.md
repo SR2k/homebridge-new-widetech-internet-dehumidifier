@@ -1,18 +1,18 @@
 # Homebridge Plugin for New Widetech Internet Dehumidifier
 
-This plugin helps you to connect your New Widetech Internet Dehumidifier with Homebridge. Tested ONLY on the 18L model.
+This plugin helps you to connect your New Widetech Internet Dehumidifier with Homebridge. Tested ONLY on the [18L model sold on Xiaomi Youpin](https://www.xiaomiyoupin.com/detail?gid=106708), whose MiIO model is `nwt.derh.wdh318efw1`.
 
 ## Usage
 
 First, install the plugin, you might need `sudo`:
 
-``` shell
+```shell
 npm i -g homebridge-new-widetech-internet-dehumidifier
 ```
 
 Then head to Homebridge `config.json`, and add a new accessory:
 
-``` json
+```json
 {
   // ... extra configs
   "accessories": [
@@ -47,11 +47,11 @@ NWT's dehumidifier supports continuous mode and dry cloth mode, which is absent 
 
 When you set target dehumidifier threshold to 0, the dehumidifier will turn on continuous mode.
 
-When you set fan speed to the max, the dehumidifier will turn on dry cloth mode.
+When you set fan speed to the maximum, the dehumidifier will turn on dry cloth mode.
 
 ## Develop
 
-``` shell
+```shell
 yarn
 yarn watch
 ```
